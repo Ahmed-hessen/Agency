@@ -43,10 +43,10 @@ body{
 .landing  p {
     font-weight:lighter;
 }
-@media (max-width:768px){
-.landing .left {
-margin-top:50px;
-}
+@media (max-width:992px){
+    .landing .left {
+        margin-top:50px;
+    }
 }
 /* End Landing Section  */
 
