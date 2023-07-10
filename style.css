@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/* Start Nav Bar  */
+.navbar {
+    background-image:linear-gradient(to right, rgb(212, 43, 212),purple);
+    top:0;
+    z-index: 10;
+}
+
+.navbar a {
+    color: white;
+    font-weight: 600;
+}
+.fa-bars { 
+    color: white ;
+    font-size: 30px;
+}
+@media (max-width:992px ){
+    .navbar-nav {
+            text-align: center;
+    }
+}
+/* End Nav Bar  */
+
+/* start Landing Section  */
+.landing { 
+    background-image:linear-gradient(to right, rgb(212, 43, 212),purple);
+    color: white;
+}
+.landing .left {
+    margin-top: 100px;
+}
+
+.landing  h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.landing  p {
+    font-weight:lighter;
+}
+/* End Landing Section  */
+
+/* Start Service section  */
+h4 ,h3{
+text-transform: uppercase;
+}
+.title::before{
+    content: "";
+    height: 3px;
+    width: 150px;
+    background-color: purple;
+    position: absolute;
+    transform: translate(-50%,40px);
+}
+.title::after {
+    content: "";
+    height: 7px;
+    width: 50px;
+    background-color: purple;
+    position: absolute;
+    transform: translate(-50%,-50%); 
+}
+@media (max-width:992px){
+    .title::before{
+        transform: translate(-50%,38px);
+    }
+}
+@media (max-width:768px){
+    .title::before{
+        transform: translate(-50%,37px);
+    }
+}
+@media (max-width:576px){
+    .title::before{
+        transform: translate(-50%,34px);
+    }
+}
+/* End Service section  */
+
+/*Start Choose Section  */
+.choose {
+    background-color:#f8f9fa;
+}
+/*End Choose Section  */
+
+/* Start Client Section   */
+.client .angleina::before {
+    content: "";
+    height: 160px;
+    width:4px;
+    background-color: purple;
+    position: absolute;
+    transform: translateX(-10px)
+}
+.client .john::before {
+    content: "";
+    height: 160px;
+    width:4px;
+    background-color: purple;
+    position: absolute;
+    transform: translateX(-10px)
+}
+/* Start Social Section  */
+.social {
+    background-color:#f8f9fa;
+    padding: 100px 0 ;
+}
+/* End Social Section  */
+.social .icons img {
+    transition: 1s;
+    cursor: pointer;
+}
+.social .icons img:hover{
+    transform: translateY(-10px);
+}
+/* End Client Section   */
+footer {
+    background:linear-gradient( rgb(212, 43, 212),purple);
+    color: white;
+}
+.fa-envelope,.fa-square-phone,.fa-location-dot {
+    background-color:purple;
+}
+
